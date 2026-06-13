@@ -1,0 +1,5 @@
+CSS (Cascading Style Sheet) is Basically Used to Select Items & Then Style Them.
+You Can Write CSS in Three Ways:
+1.)Inline CSS(within The Line)
+2.)Internal CSS(within The File)
+3.)External CSS(Make Another file as .css file)

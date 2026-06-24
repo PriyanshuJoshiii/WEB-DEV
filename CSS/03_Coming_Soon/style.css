@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Shadows+Into+Light&display=swap');
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: "Luckiest Guy", cursive;
+    height: 100%;
+}
+
+.container {
+    background: linear-gradient(135deg, #1b1a1b, #8e93a2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.content {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.809);
+    padding: 2rem;
+    border-radius: 9px;
+    max-width: 350px;
+
+}
+
+.logo {
+    width: 150px;
+    object-fit: contain;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+
+}
+
+p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="email"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 1rem;
+}
+
+button {
+    padding: 0.5rem;
+    background-color: #8a2be2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 8px 6px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #464146;
+    text-shadow: #8a2be2;
+}
